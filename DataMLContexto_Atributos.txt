@@ -1,16 +1,5 @@
 Atributos e seus significados
 
-Dataset retirado de :
-https://www.kaggle.com/datasets/rajkumarpandey02/bank-marketing-dataset
-
-"The data is related with direct marketing campaigns of a Portuguese banking institution. 
-The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, 
-in order to access if the product (bank term deposit) would be ('yes') or not ('no') subscribed."
-
-Foi utilizado do "bank.csv" que conta como uma amostra da dataset total "bank-full.csv".
-
-
-
 X1 age: Idade (Por Ano) do cliente
 
 X2 job:Tipo de emprego: 
@@ -36,18 +25,21 @@ X9 contact:Type of communication mode used for contact. : Desconhecido = 0; Tele
 
 X10 day: Day of the last contact.
 
-X11 campaign: Number of contacts performed during this campaign.
+X11 month: Month of the last contact.
 
-X12 pdays: Days since the client was last contacted from a previous campaign (999 indicates the client was not contacted).
+X12 duration: Duration of the last contact in seconds.
 
-X13 previous: Number of contacts before this campaign.
+X13 campaign: Number of contacts performed during this campaign.
 
-X14 poutcome: Outcome of the previous marketing campaign.:
+X14 pdays: Days since the client was last contacted from a previous campaign (999 indicates the client was not contacted).
+
+X15 previous: Number of contacts before this campaign.
+
+X16 poutcome: Outcome of the previous marketing campaign.:
 
 Desconhecido = 0; Outro = 1; Sucesso = 2;  Falha = 3;
 
-X15 y: Indicates if the client subscribed to a term deposit. :Não = 0; Sim = 1;
-
+X17 y: Indicates if the client subscribed to a term deposit. :Não = 0; Sim = 1;
 
 
 
