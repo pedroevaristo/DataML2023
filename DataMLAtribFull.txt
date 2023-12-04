@@ -48,8 +48,8 @@ data$housing <- as.factor(data$housing)
 data$loan <- as.factor(data$loan)
 data$contact <- as.factor(data$contact)
 
-data$housing <- as.factor(data$poutcome)
-data$housing <- as.factor(data$y)
+data$poutcome <- as.factor(data$poutcome)
+data$y <- as.factor(data$y)
 
 
 
