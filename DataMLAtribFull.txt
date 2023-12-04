@@ -39,7 +39,17 @@ Desconhecido = 0; Outro = 1; Sucesso = 2;  Falha = 3;
 
 X15 y: Indicates if the client subscribed to a term deposit. :Não = 0; Sim = 1;
 
+data$job <- as.factor(data$job)
+data$marital <- as.factor(data$marital)
+data$education <- as.factor(data$education)
+data$default <- as.factor(data$default)
 
+data$housing <- as.factor(data$housing)
+data$loan <- as.factor(data$loan)
+data$contact <- as.factor(data$contact)
+
+data$housing <- as.factor(data$poutcome)
+data$housing <- as.factor(data$y)
 
 
 
